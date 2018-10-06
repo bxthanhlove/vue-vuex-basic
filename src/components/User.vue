@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-  <h3>Add user</h3>
+  <h3>Add user in branch develop</h3>
       <div class="form-group" :class="{'has-danger': invalid}">
         <input type="text" class="form-control" :class="{'is-invalid': invalid}" @keyup.enter="addUser()" v-model="user.name" placeholder="Enter your name">
         <div class="invalid-feedback">Please enter your name</div>
