@@ -11,11 +11,15 @@
 
 <script>
     export default {
-        props: ['users'],
+        computed: {
+            users(){
+               return this.$store.getters.unregisteredUsers;
+            }
+        },
         methods: {
             registerUser(user) {
-                this.$emit('userRegistered', user);
-                user.registered = true;
+                this.$store.commit('register', user);
+                //this.$store.dispatch('register', user);
             }
         }
     }
@@ -27,7 +31,7 @@
         margin: 20px;
         padding: 20px;
         display: inline-block;
-        width: 300px;
+        width: 500px;
         vertical-align: top;
     }
 
