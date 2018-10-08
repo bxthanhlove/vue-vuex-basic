@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>Component feature 1</h2>
+        <h2>Component feature</h2>
         <p class="p-welcome">
             Welcome to component {{data}}
         </p>
