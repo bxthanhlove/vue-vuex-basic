@@ -31,6 +31,7 @@ export default {
             total: 'totalRegistrations'
         })
 
+        //Đã sửa ở develop
         // registrations(){
         //     return this.$store.getters.registrations;
         // },
