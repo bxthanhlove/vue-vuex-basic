@@ -20,6 +20,7 @@
             registerUser(user) {
                 this.$store.commit('register', user);
                 //this.$store.dispatch('register', user); //sửa code branch develop in master
+                //this.$store.dispatch('register', user); //sửa code branch develop a
             }
         }
     }
