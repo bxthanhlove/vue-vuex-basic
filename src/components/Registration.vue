@@ -19,7 +19,9 @@
         methods: {
             registerUser(user) {
                 this.$store.commit('register', user);
+                //Tiếp tục sửa ở develop
                 //this.$store.dispatch('register', user); //Sửa code branch develop
+                //Tiếp tục sửa ở develop
             }
         }
     }
