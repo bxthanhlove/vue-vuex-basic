@@ -19,7 +19,7 @@
         methods: {
             registerUser(user) {
                 this.$store.commit('register', user);
-                //this.$store.dispatch('register', user);
+                //this.$store.dispatch('register', user); //sửa code branch develop
             }
         }
     }
