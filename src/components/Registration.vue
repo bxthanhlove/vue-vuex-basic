@@ -19,7 +19,11 @@
         methods: {
             registerUser(user) {
                 this.$store.commit('register', user);
+<<<<<<< HEAD
                 //this.$store.dispatch('register', user); //sửa code branch develop in master 1
+=======
+                //this.$store.dispatch('register', user); //sửa code branch develop aaaa
+>>>>>>> a72f21494838462028924dc6200b162094569cb4
             }
         }
     }
